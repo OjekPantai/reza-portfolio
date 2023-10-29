@@ -59,14 +59,19 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+.logo .navbar-logo {
   font-size: 2rem;
+  font-weight: 500;
 }
 
-.logo:hover {
+.navbar-logo:hover {
   cursor: default;
 }
 
+.navbar-logo span {
+  color: #64ccc5;
+  font-weight: 350;
+}
 /* Hamburger Nav */
 
 #hamburger-nav {
